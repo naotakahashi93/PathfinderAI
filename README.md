@@ -1,4 +1,4 @@
-# <img src="./frontend/src/images/PathfinderLogo.png" alt="PathfinderAI Logo" width="100"> PathfinderAI - Travel Itinerary Builder
+# PathfinderAI - Travel Itinerary Builder  <img src="./frontend/src/images/PathfinderLogo.png" alt="PathfinderAI Logo" width="100"> 
 
 
 ## Table of Contents
