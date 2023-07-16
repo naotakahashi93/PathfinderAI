@@ -7,9 +7,8 @@
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
+  
 ## Introduction
 
 PathfinderAI is my final capstone project at Springboard. The aim of this project is to provide users with a custom and interactive travel experience. By using the chatGPT API and the HEREMaps API, the application allows users to input their desired travel location, travel dates, and additional preferences such as travel companions and interests. Based on this information, the system will generate personalized travel itineraries and plot the suggested locations on a map. The objective is to provide users with a convenient and efficient tool to plan their travel experiences with ease.
