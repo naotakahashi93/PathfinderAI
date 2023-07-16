@@ -7,6 +7,7 @@
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
+- [App Deployement](#app-deployment)
 
   
 ## Introduction
@@ -41,5 +42,11 @@ PathfinderAI is my final capstone project at Springboard. The aim of this projec
 4. Explore the generated itinerary and the locartions on the map.
 5. Option to save the itinerary for future reference with sign up.
 6. There are sample itineraries at the bottom of the landing page of some popular travel destinations!
+
+## App Deployment
+
+- **Frontend:** Surge
+- **Backend:** Render
+- **Database** ElephantSQL
 
 ---
