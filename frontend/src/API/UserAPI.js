@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const BASE_URL = "http://127.0.0.1:5000"
+
+// let BASE_URL = "http://127.0.0.1:5000"
+
+let BASE_URL = "https://pathfinderai.onrender.com/"
 // console.log(BASE_URL, "BASE_URL")
 
 class UserAPI {
