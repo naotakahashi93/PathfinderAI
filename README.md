@@ -7,7 +7,7 @@
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [App Deployement](#app-deployment)
+- [App Deployment](#app-deployment)
 
   
 ## Introduction
