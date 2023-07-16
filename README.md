@@ -11,6 +11,8 @@
   
 ## Introduction
 
+https://pathfinderai.surge.sh/
+
 PathfinderAI is my final capstone project at Springboard. The aim of this project is to provide users with a custom and interactive travel experience. By using the chatGPT API and the HEREMaps API, the application allows users to input their desired travel location, travel dates, and additional preferences such as travel companions and interests. Based on this information, the system will generate personalized travel itineraries and plot the suggested locations on a map. The objective is to provide users with a convenient and efficient tool to plan their travel experiences with ease.
 
 ## Key Features
@@ -33,7 +35,7 @@ PathfinderAI is my final capstone project at Springboard. The aim of this projec
 
 ## Usage
 
-1. Open the PathfinderAI application in your web browser.
+1. Open the PathfinderAI application in your web browser. - https://pathfinderai.surge.sh/
 2. Enter your desired travel destination and optionally dates and other interests.
 3. Once you've inputted/selected all the necessary inputs, the application will generate a detailed travel itinerary for your trip.
 4. Explore the generated itinerary and the locartions on the map.
