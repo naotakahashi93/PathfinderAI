@@ -21,7 +21,7 @@ CORS(app)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///pathfinderAI'
 
 # for DEOPLYING
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://qjltirnr:iYLhP6v76gqF02R2AvwRajSoEi1gFHnm@mahmud.db.elephantsql.com/qjltirnr'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://qjltirnr:iYLhP6v76gqF02R2AvwRajSoEi1gFHnm@mahmud.db.elephantsql.com/qjltirnr'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
