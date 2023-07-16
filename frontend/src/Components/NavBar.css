@@ -1,0 +1,125 @@
+/* #E1B2DE */
+/* #B03DD0
+#3EEBE9
+#FC7C57 */
+
+/* a.active {
+    color: #80DED9 !important;
+    font-weight:bolder;
+    box-sizing: content-box;
+  }
+   */
+a.active:hover {
+    color: #B03DD0 !important;
+    font-weight: bold;
+  }
+  
+#menudiv a:hover {
+    text-decoration: none;
+    color: #B03DD0 !important;
+    font-weight: bolder;
+
+  }
+
+#logoutlink:hover{
+    text-decoration: none;
+    color: #B03DD0 !important;
+
+  }
+
+#bardiv a{
+  margin-right:3%;
+  margin-left : 3%;
+  font-size: 1.4vw;
+  color: white ;
+}
+
+#logoutlink{
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  text-decoration: underline;
+  cursor: pointer;
+  color:white ;
+  font-size: 1.4vw;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#menudiv{
+  margin-right: 0mm;
+  position: relative;
+  width: 80%;
+  text-align: right;
+  margin: auto;
+  z-index: 3;
+}
+
+#bardiv{
+  position: absolute;
+  width: 100%;
+  min-height: 2.5vw;
+  display: flex;
+  margin-top: 0%;
+  /* background-color: rgba(25, 25, 25, 0.678); */
+  z-index: 99;
+}
+
+#pathfinderlogo{
+    display: inline-block;
+    margin: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#pathfinderlogo img{
+    height: 3.5vw;
+    padding: 3%;
+    min-height: 2.5vw;
+}
+
+#signupbtn,
+#loginbtn {
+  min-height: 2.5vw;
+  display: inline;
+  background-color: #3eebe8ca;
+  border-style: none;
+  padding: 0.5% 3%;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  margin-top: 1.5vw; 
+}
+
+@media (max-width: 768px) {
+  #signupbtn,
+  #loginbtn {
+    min-height: 2.5vw;
+    width: 20%;
+    margin-top: 3vw;
+    font-size: 2.5vw;
+  }
+
+  #bardiv {
+    min-height: 5vw; 
+  }
+
+  #menudiv{
+    margin:0
+  }
+
+  #pathfinderlogo img {
+    height: 5vw;
+  }
+
+  #bardiv a {
+    font-size: 2.5vw; 
+  }
+
+  #logoutlink {
+    font-size: 2.5vw;
+  }
+}

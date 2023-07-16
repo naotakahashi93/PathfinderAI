@@ -1,0 +1,13 @@
+#placeitinerarytext{
+    white-space: pre-line;
+    margin-top: 7%;
+    width: 55%;
+    height: 90%;
+    text-align: center;
+    margin-right: auto;
+    overflow: auto;
+    position: absolute;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: rgba(12, 12, 12, 0.846);
+}
