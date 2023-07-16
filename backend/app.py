@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, flash, redirect, session, g, make_response
 from flask_session import Session
-from jinja2 import escape
 import requests, os, json
 from sqlalchemy.exc import IntegrityError
 from flask_cors import CORS
@@ -19,10 +18,10 @@ app = Flask(__name__)
 CORS(app)
 
 ## for LOCAL access 
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///pathfinderAI'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///pathfinderAI'
 
 # for DEOPLYING
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://qjltirnr:iYLhP6v76gqF02R2AvwRajSoEi1gFHnm@mahmud.db.elephantsql.com/qjltirnr'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://qjltirnr:iYLhP6v76gqF02R2AvwRajSoEi1gFHnm@mahmud.db.elephantsql.com/qjltirnr'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
