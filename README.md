@@ -1,5 +1,6 @@
 # PathfinderAI - Travel Itinerary Builder
-![PathfinderAI Logo](./frontend/src/images/PathfinderLogo.png =x150)
+![PathfinderAI Logo](./frontend/src/images/PathfinderLogo.png =250x)
+
 
 ## Table of Contents
 
