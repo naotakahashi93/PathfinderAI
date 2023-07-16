@@ -11,7 +11,12 @@ API_BASE_URL = "https://api.openai.com/v1/completions"
 OPENAI_API_KEY = OPENAI_API_KEY
 HEREMAP_API_KEY= HEREMAP_API_KEY 
 # r = redis.Redis(host='localhost', port=6379, db=0)
-r = redis.Redis(host='localhost', port=6379, decode_responses=True)
+#FOR DEPLOYMENT
+r = redis.Redis(host='red-cipmv2dgkuvrtoe2oq7g', port=6379, decode_responses=True)
+
+#FOR LOCAL
+# r = redis.Redis(host='localhost', port=6379, decode_responses=True)
+
 # redis_conn = redis.Redis(host='localhost', port=6379, db=0)
 
 app = Flask(__name__)
