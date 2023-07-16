@@ -27,7 +27,7 @@ PathfinderAI is my final capstone project at Springboard. The aim of this projec
 
 ## Technologies Used
 
-- **Backend:** Python, Flask
+- **Backend:** Python, Flask, Redis
 - **Frontend:** React, HTML, CSS
 - **Database** PostgreSQL, SQLAlchemy
 - **API** OpenAI API (Model: text-davinci-003), HEREMaps API 
