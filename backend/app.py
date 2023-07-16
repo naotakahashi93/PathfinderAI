@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, flash, redirect, session, g, make_response
 from flask_session import Session
+from jinja2 import escape
 import requests, os, json
 from sqlalchemy.exc import IntegrityError
 from flask_cors import CORS
