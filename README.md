@@ -39,7 +39,7 @@ PathfinderAI is my final capstone project at Springboard. The aim of this projec
 1. Open the PathfinderAI application in your web browser. - https://pathfinderai.surge.sh/
 2. Enter your desired travel destination and optionally dates and other interests.
 3. Once you've inputted/selected all the necessary inputs, the application will generate a detailed travel itinerary for your trip.
-4. Explore the generated itinerary and the locartions on the map.
+4. Explore the generated itinerary and the locations on the map.
 5. Option to save the itinerary for future reference with sign up.
 6. There are sample itineraries at the bottom of the landing page of some popular travel destinations!
 
